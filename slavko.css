@@ -1,0 +1,58 @@
+.pozadina{
+    background-image: url('static/pozadina.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+
+.box-con{
+    padding: 0 0 30px 0;
+    /* border: 1px solid yellow; */
+}
+
+.slika-poz{
+    background-color: white;
+    height: 77px;
+    width: 77px;
+    border-radius: 50%;
+}
+.slika-poz img{
+    width: 44px;
+    height: 44px;
+}
+
+.ikonica{
+    padding: 5%;
+}
+
+.box-tekst{
+    padding-left: 30px;
+    width: 80%;
+}
+
+.pozadina-slajder, .pozadina-telefon{
+    background-image: url("static/blank.png");
+    background-repeat: no-repeat;
+}
+
+.slajder-pozicija{
+    position: absolute;
+    top: 99px;
+    left: 52px;
+}
+
+
+@media screen and (max-width:769px) {
+    
+ body{
+     color: red;
+ }
+ img{
+     margin: 2%;
+ }
+
+ .wrapper-tel{
+     width: 80%;
+ }
+}

@@ -1,0 +1,41 @@
+
+.clients {
+    background-image: url('static/Rectangle\ 3.png');
+    color: white;
+    margin: 0;
+    max-width: 100vw;
+    text-align: center;
+    padding: 5%;
+
+}
+.card {
+    background-color: transparent;
+}
+
+.card-body {
+    border: 1px solid white;
+    padding-top: 10%;
+}
+
+.avatar {
+    top: -20%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+.carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #f7f7f7;
+}
+
+.carousel-indicators {
+    position: relative;
+}
+.talk {
+    font-size: 0.9375rem;
+    line-height: 1.625rem;
+}
