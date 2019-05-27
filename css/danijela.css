@@ -1,0 +1,9 @@
+
+
+.prevNext {
+    transition: 0.2s ease;
+}
+.prevNext:hover {
+    transform: scale(1.1);
+
+}
