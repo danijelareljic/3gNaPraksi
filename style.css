@@ -62,11 +62,8 @@ img {
 #header a.btn strong {
     font-size: 19.08px;
 }
-#navbarToggler a {
-    color: white;
-}
-#navbarToggler a:hover {   
-    font-weight: bold;
+.nav-link:hover {
+    text-shadow: -.25px -.25px 0 white, .25px .25px white;
 }
 .navbar a.btn {
     border-radius: 38px;
