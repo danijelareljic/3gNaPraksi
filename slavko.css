@@ -44,10 +44,7 @@
 
 
 @media screen and (max-width:769px) {
-    
- body{
-     color: red;
- }
+
  img{
      margin: 2%;
  }
