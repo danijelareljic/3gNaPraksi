@@ -1,7 +1,7 @@
 .pozadina{
     background-image: url('static/pozadina.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     color: white;
 }
 
