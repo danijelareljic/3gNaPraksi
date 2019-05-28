@@ -10,4 +10,8 @@ $(document).ready(function(){
     function(){
       $("#slajd").carousel("pause");
     });
+
+   $("#carouselExampleControls").click(function(){
+     $("#carouselExampleControls").carousel("next");
+   }); 
   });
