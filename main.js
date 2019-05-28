@@ -14,4 +14,18 @@ $(document).ready(function(){
    $("#carouselExampleControls").click(function(){
      $("#carouselExampleControls").carousel("next");
    }); 
+    $(document).keydown(function(e){
+      switch (e.keyCode) {
+        case 37:
+          $("#carouselExampleControls").carousel("prev");
+          break;
+      case 39:
+          $("#carouselExampleControls").carousel("next");
+          break;
+        default: return;
+          break;
+      }
+     e.preventDefault();
+   }); 
+  
   });
