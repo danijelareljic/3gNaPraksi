@@ -142,6 +142,10 @@ h6 + p {
     .s-features img {
         width: 80%;
     }
+    .mobilni-telefon {
+        margin-top: 10%;
+        margin-left: 20%;
+    }
 }
 @media screen and (max-width:768px) {
     :root {
