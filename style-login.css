@@ -1,0 +1,43 @@
+body {
+    background: url("assets/img/group-5796.png") no-repeat;
+
+}
+
+.box-login {
+   text-align: center;
+   margin: auto;
+  
+   align-content: center;
+}
+
+.glavni {
+    height: 100vh;
+    
+}
+.round{
+    border-radius: 20px;
+}
+ 
+.btn-contact {
+    background: #29e4b7;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: bold;
+    border-radius: 25px;
+    outline: none;
+}
+
+a{
+    color: #29E4B7;
+    
+}
+
+::placeholder {
+    color: #29E4B7;
+    font-weight: bold;
+}
+
+input {
+    outline: none;
+}
+

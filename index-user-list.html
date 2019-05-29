@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Homepage</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/bootstrap4/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style-user-list.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+</head>
+<body>
+    <img class="ml-4 p-3" src="assets/img/NAVIGATION.svg" alt="">
+    
+        <div class="container-fluid d-flex justify-content-end p-0 ">
+           
+            <div class="table-container col-10 ">
+                <h3 class="ml-5 mt-4 font-weight-bold">Upload Users</h3>
+                <div class="p-btn-box mr-5 d-flex justify-content-between">
+                <p class="ml-5">If you would like to seed your mailing with names of people within your organization, add their names here</p>
+                <button type="submit" class="btn col-2 shadow p-2 mb-4 bg-white-rounded btn-user">Upload User</button>
+                </div>
+                    <div class="ml-5 col-11 shadow p-3 bg-white rounded">
+                        <div class="table-box ml-5 mt-4">
+                            <table class="table">
+                                    <thead>
+                                      <tr>
+                                        <th scope="col">List Name</th>
+                                        <th scope="col">#Recepient</th>
+                                        <th scope="col">Uploaded By</th>
+                                        <th scope="col">Uploaded Date</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td scope="row">Software-Nation Team 1.XLS</td>
+                                        <td>0</td>
+                                        <td>Dennis Johnson</td>
+                                        <td>07/06/2018</td>
+                                        <td><button id="modal-toggle" class="px-3 btn btn-small" data-toggle="modal" data-target=".bd-example-modal-sm"> ...</button> </td>
+
+                                      </tr>
+                                      <tr>
+                                        <td scope="row">Software-Nation Team 12.XLS</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                      </tr>
+                                      <tr>
+                                        <td scope="row">Software-Nation Team 123.XLS</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                      </tr>
+                                      <tr>
+                                        <td scope="row">Software-Nation Team 1.XLS</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                      </tr>
+                                      <tr>
+                                        <td scope="row">Software-Nation Team 12.XLS</th>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                      </tr>
+                                      <tr>
+                                        <td scope="row">Software-Nation Team 123.XLS</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                      </tr>
+                                      <tr>
+                                        <td scope="row">Software-Nation Team 1.XLS</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                      </tr>
+                                      <tr>
+                                        <td scope="row">Software-Nation Team 12.XLS</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                      </tr>
+                                      <tr>
+                                        <td scope="row">Software-Nation Team 123.XLS</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-sm ">
+              <div class="modal-content  align-items-center">
+               <h2>Edit/Delete User</h2>
+               <button id="edit" class="btn btn-success col-4 mb-2">Edit</button>
+               <button id="delete" class="btn btn-danger col-4 mb-2">Delete</button>
+              </div>
+            </div>
+          </div>
+
+    <script src="assets/jQuery/jquery-3.4.1.min.js"></script>
+    <script src="assets/bootstrap4/js/bootstrap.min.js"></script>
+    <script src="user-list-script.js"> </script>
+
+</body>
+</html>
