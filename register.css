@@ -1,0 +1,18 @@
+body {
+    background-image: url(../SLIKE/group-5796.png);
+    background-repeat: no-repeat;
+}
+.glavni {
+    height: 100vh;
+}
+::placeholder {
+    color: #29e4b7!Important;
+    font-weight: bold;
+}
+.radijus {
+    border-radius: 25px;
+}
+
+.mint-bcg {
+    background-color:  #29e4b7;
+}
