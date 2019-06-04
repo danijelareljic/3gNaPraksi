@@ -10,4 +10,22 @@ $(document).ready(function(){
     function(){
       $("#slajd").carousel("pause");
     });
+
+   $("#carouselExampleControls").click(function(){
+     $("#carouselExampleControls").carousel("next");
+   }); 
+    $(document).keydown(function(e){
+      switch (e.keyCode) {
+        case 37:
+          $("#carouselExampleControls").carousel("prev");
+          break;
+      case 39:
+          $("#carouselExampleControls").carousel("next");
+          break;
+        default: return;
+          
+      }
+     e.preventDefault();
+   }); 
+  
   });
